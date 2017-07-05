@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         
         if let beacon = notification.userInfo?["iBeacon"] as? iBeacon {
             print(beacon.major)
+            print(beacon.minor)
         }
         
     }
