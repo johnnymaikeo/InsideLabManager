@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InsideLabManager_Example' do
+  pod 'InsideLabManager', :path => '../'
+
+  target 'InsideLabManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
