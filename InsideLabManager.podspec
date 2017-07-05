@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InsideLabManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'iBeacon Manager provides a simple and optimized framework to easily integrate any iOS application with InsideLab products.'
 
   s.description      = <<-DESC

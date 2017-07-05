@@ -34,7 +34,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'InsideLabManager', '~> 0.1.1'
+    pod 'InsideLabManager', '~> 0.1.3’
 end
 ```
 
