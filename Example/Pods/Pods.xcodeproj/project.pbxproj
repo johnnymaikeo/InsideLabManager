@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E927FCEC90C40015C68948792E194E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1FE2C3816D09315D2F923E116325DCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2694E42DAEB047FA208D211F698EA6C8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156622BF6691D593CF2938505F76450A /* ReplaceMe.swift */; };
+		55E553E5078393F0BB293BE138016A42 /* Pods-InsideLabManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E007CA3F7394D579CD4FA8EC6305 /* Pods-InsideLabManager_Tests-dummy.m */; };
+		5EEAE9F2FFB79B16DBEA7D613404171C /* Pods-InsideLabManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB8AEDD50C9CE6C02D076E0834B2F0 /* Pods-InsideLabManager_Example-dummy.m */; };
+		A6237BB37E74163C243111984977ED1F /* Pods-InsideLabManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE69D4988E44822F6DAF1FE88396E02 /* Pods-InsideLabManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC534B9D8FCE394F1EED1D9B11609C7C /* InsideLabManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52B300F12F4AD53085106B61B0120D /* InsideLabManager-dummy.m */; };
+		BE18EF9169B9CA36601DBFA4DDE84C9B /* Pods-InsideLabManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2404AD3354B48CFF4E3049647002CAA6 /* Pods-InsideLabManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9F8158CEE4A08BF6CD5A4C73931F50 /* InsideLabManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F026B1DFDA64CC2DA19E262F77D6985 /* InsideLabManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CE23DC6DBAB1B546185308E716FA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA20A7C93F88DABB6E22FD32E5A9F0AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C15FDBDDF1B17706B46110E5B5A440;
+			remoteInfo = InsideLabManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C46C93150197CAC490198A90498977 /* Pods-InsideLabManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InsideLabManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		156622BF6691D593CF2938505F76450A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1AE69D4988E44822F6DAF1FE88396E02 /* Pods-InsideLabManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InsideLabManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F83E1BE8B570131401F589329D01ED1 /* Pods-InsideLabManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InsideLabManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		2404AD3354B48CFF4E3049647002CAA6 /* Pods-InsideLabManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InsideLabManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		2EE6B6404FD82FE33EB2C171C3911164 /* Pods-InsideLabManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InsideLabManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34A823FFB93267A793D74DBA06934911 /* Pods-InsideLabManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InsideLabManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3F09E007CA3F7394D579CD4FA8EC6305 /* Pods-InsideLabManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InsideLabManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		48F108800C691738D81DB3F063A400CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BEF626D5740EA25313CE80CE69FC49 /* InsideLabManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InsideLabManager.framework; path = InsideLabManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5316CB87918392B8ECEB32EBAD438A45 /* Pods-InsideLabManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InsideLabManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5BBB8AEDD50C9CE6C02D076E0834B2F0 /* Pods-InsideLabManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InsideLabManager_Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6702A0BE773F111CAB8B549596982BA9 /* Pods-InsideLabManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InsideLabManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EB2D81D66F5686DE537548764AEE0A8 /* InsideLabManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InsideLabManager.xcconfig; sourceTree = "<group>"; };
+		7F026B1DFDA64CC2DA19E262F77D6985 /* InsideLabManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InsideLabManager-umbrella.h"; sourceTree = "<group>"; };
+		91D97C311D9AE451FA432458A14F1E29 /* Pods-InsideLabManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InsideLabManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CC73503791E924D5498251A45A2DBE1 /* Pods-InsideLabManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InsideLabManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A199AEBF25FED7989BA7371B5EFA05E7 /* Pods-InsideLabManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InsideLabManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5C0CEBF18DABAAA1903E7AC0E41D778 /* InsideLabManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = InsideLabManager.modulemap; sourceTree = "<group>"; };
+		B64C6871A7A9C2833EA43C115AD5FA99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8954C27C89974F13B11C5EB4EA18280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9C4503C8E056377DB2AD5549912349 /* Pods_InsideLabManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InsideLabManager_Tests.framework; path = "Pods-InsideLabManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1243C818611FE28BA640F9FD7500912 /* Pods-InsideLabManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InsideLabManager_Tests.modulemap"; sourceTree = "<group>"; };
+		CC2F8BEE1A99F9021F395EE75A54D442 /* Pods-InsideLabManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InsideLabManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5467B683A005F3FB234FC54E125B929 /* Pods-InsideLabManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InsideLabManager_Example.modulemap"; sourceTree = "<group>"; };
+		DC1A64ECDA9B42EA4D25A603BCE24514 /* InsideLabManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InsideLabManager-prefix.pch"; sourceTree = "<group>"; };
+		DE52B300F12F4AD53085106B61B0120D /* InsideLabManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InsideLabManager-dummy.m"; sourceTree = "<group>"; };
+		E5091B312378F454F2A46FDFFDC92F8E /* Pods_InsideLabManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InsideLabManager_Example.framework; path = "Pods-InsideLabManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB371FB43ED153AAD7FD8ED26ACD3727 /* Pods-InsideLabManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InsideLabManager_Example-resources.sh"; sourceTree = "<group>"; };
+		FBED93FF848768E0315EF3683518EB4D /* Pods-InsideLabManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InsideLabManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA8725312A399B460E6EC8121DAA283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E927FCEC90C40015C68948792E194E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9A8776C3FECE7A34FCBA8ADC8EB453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE2C3816D09315D2F923E116325DCA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF90171F7D6FF26D2A0E3D16D06D432C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CE23DC6DBAB1B546185308E716FA23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0127A74D261C4681B40335C65F71A78E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				156622BF6691D593CF2938505F76450A /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0E47293D69D2F7584031981BC92357A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BEF626D5740EA25313CE80CE69FC49 /* InsideLabManager.framework */,
+				E5091B312378F454F2A46FDFFDC92F8E /* Pods_InsideLabManager_Example.framework */,
+				BF9C4503C8E056377DB2AD5549912349 /* Pods_InsideLabManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E537FC94DDB47C3F5B9651216AC4EEC /* InsideLabManager */ = {
+			isa = PBXGroup;
+			children = (
+				344B6074FA13B8695CD16C476BDECAAA /* InsideLabManager */,
+				3D8F20A166584278363958EBEE0ED665 /* Support Files */,
+			);
+			name = InsideLabManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3123574961AA604E476C6FB168F13D8A /* Pods-InsideLabManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B64C6871A7A9C2833EA43C115AD5FA99 /* Info.plist */,
+				C1243C818611FE28BA640F9FD7500912 /* Pods-InsideLabManager_Tests.modulemap */,
+				CC2F8BEE1A99F9021F395EE75A54D442 /* Pods-InsideLabManager_Tests-acknowledgements.markdown */,
+				A199AEBF25FED7989BA7371B5EFA05E7 /* Pods-InsideLabManager_Tests-acknowledgements.plist */,
+				3F09E007CA3F7394D579CD4FA8EC6305 /* Pods-InsideLabManager_Tests-dummy.m */,
+				91D97C311D9AE451FA432458A14F1E29 /* Pods-InsideLabManager_Tests-frameworks.sh */,
+				1F83E1BE8B570131401F589329D01ED1 /* Pods-InsideLabManager_Tests-resources.sh */,
+				1AE69D4988E44822F6DAF1FE88396E02 /* Pods-InsideLabManager_Tests-umbrella.h */,
+				03C46C93150197CAC490198A90498977 /* Pods-InsideLabManager_Tests.debug.xcconfig */,
+				34A823FFB93267A793D74DBA06934911 /* Pods-InsideLabManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-InsideLabManager_Tests";
+			path = "Target Support Files/Pods-InsideLabManager_Tests";
+			sourceTree = "<group>";
+		};
+		344B6074FA13B8695CD16C476BDECAAA /* InsideLabManager */ = {
+			isa = PBXGroup;
+			children = (
+				0127A74D261C4681B40335C65F71A78E /* Classes */,
+			);
+			name = InsideLabManager;
+			path = InsideLabManager;
+			sourceTree = "<group>";
+		};
+		3D8F20A166584278363958EBEE0ED665 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8954C27C89974F13B11C5EB4EA18280 /* Info.plist */,
+				A5C0CEBF18DABAAA1903E7AC0E41D778 /* InsideLabManager.modulemap */,
+				7EB2D81D66F5686DE537548764AEE0A8 /* InsideLabManager.xcconfig */,
+				DE52B300F12F4AD53085106B61B0120D /* InsideLabManager-dummy.m */,
+				DC1A64ECDA9B42EA4D25A603BCE24514 /* InsideLabManager-prefix.pch */,
+				7F026B1DFDA64CC2DA19E262F77D6985 /* InsideLabManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InsideLabManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F3E80A24DE35B9C34D45C9FCDD301C26 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0E47293D69D2F7584031981BC92357A2 /* Products */,
+				B2B8E9C2804955514F6E539C5726565C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8A0E6D89C925C96FDB872A3363A523 /* Pods-InsideLabManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				48F108800C691738D81DB3F063A400CB /* Info.plist */,
+				D5467B683A005F3FB234FC54E125B929 /* Pods-InsideLabManager_Example.modulemap */,
+				2EE6B6404FD82FE33EB2C171C3911164 /* Pods-InsideLabManager_Example-acknowledgements.markdown */,
+				6702A0BE773F111CAB8B549596982BA9 /* Pods-InsideLabManager_Example-acknowledgements.plist */,
+				5BBB8AEDD50C9CE6C02D076E0834B2F0 /* Pods-InsideLabManager_Example-dummy.m */,
+				9CC73503791E924D5498251A45A2DBE1 /* Pods-InsideLabManager_Example-frameworks.sh */,
+				FB371FB43ED153AAD7FD8ED26ACD3727 /* Pods-InsideLabManager_Example-resources.sh */,
+				2404AD3354B48CFF4E3049647002CAA6 /* Pods-InsideLabManager_Example-umbrella.h */,
+				5316CB87918392B8ECEB32EBAD438A45 /* Pods-InsideLabManager_Example.debug.xcconfig */,
+				FBED93FF848768E0315EF3683518EB4D /* Pods-InsideLabManager_Example.release.xcconfig */,
+			);
+			name = "Pods-InsideLabManager_Example";
+			path = "Target Support Files/Pods-InsideLabManager_Example";
+			sourceTree = "<group>";
+		};
+		B2B8E9C2804955514F6E539C5726565C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A0E6D89C925C96FDB872A3363A523 /* Pods-InsideLabManager_Example */,
+				3123574961AA604E476C6FB168F13D8A /* Pods-InsideLabManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3E80A24DE35B9C34D45C9FCDD301C26 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E537FC94DDB47C3F5B9651216AC4EEC /* InsideLabManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		925F6D3FC43AB38D36C44D190782AB09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6237BB37E74163C243111984977ED1F /* Pods-InsideLabManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38CB7DAC6AD125788DBCDB42CF89CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9F8158CEE4A08BF6CD5A4C73931F50 /* InsideLabManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3DDB4B813C7AB168B31B6AC6A868F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE18EF9169B9CA36601DBFA4DDE84C9B /* Pods-InsideLabManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30C15FDBDDF1B17706B46110E5B5A440 /* InsideLabManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F90138814AC4CFE6F3E06DB4C6D4E9 /* Build configuration list for PBXNativeTarget "InsideLabManager" */;
+			buildPhases = (
+				1001F14D8EAACFD23DE10604AC82ED4F /* Sources */,
+				DF90171F7D6FF26D2A0E3D16D06D432C /* Frameworks */,
+				D38CB7DAC6AD125788DBCDB42CF89CD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsideLabManager;
+			productName = InsideLabManager;
+			productReference = 52BEF626D5740EA25313CE80CE69FC49 /* InsideLabManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BDF76528C232EBBDAD3903A928D21B3 /* Pods-InsideLabManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C971DB4919DB3192AAD0B0518D208389 /* Build configuration list for PBXNativeTarget "Pods-InsideLabManager_Example" */;
+			buildPhases = (
+				B4750AC8392780B4F8C08EAFADB43C04 /* Sources */,
+				DA9A8776C3FECE7A34FCBA8ADC8EB453 /* Frameworks */,
+				FC3DDB4B813C7AB168B31B6AC6A868F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C094563C4C60158A729FEACBDAF68F54 /* PBXTargetDependency */,
+			);
+			name = "Pods-InsideLabManager_Example";
+			productName = "Pods-InsideLabManager_Example";
+			productReference = E5091B312378F454F2A46FDFFDC92F8E /* Pods_InsideLabManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69EC82F550A10B870D1F65CA0FB28C97 /* Pods-InsideLabManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E5C2C892BF6450ECC4C6F29EE088BC /* Build configuration list for PBXNativeTarget "Pods-InsideLabManager_Tests" */;
+			buildPhases = (
+				14301DC2752B34FFC2B600DC1FD91C68 /* Sources */,
+				1CA8725312A399B460E6EC8121DAA283 /* Frameworks */,
+				925F6D3FC43AB38D36C44D190782AB09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-InsideLabManager_Tests";
+			productName = "Pods-InsideLabManager_Tests";
+			productReference = BF9C4503C8E056377DB2AD5549912349 /* Pods_InsideLabManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E47293D69D2F7584031981BC92357A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C15FDBDDF1B17706B46110E5B5A440 /* InsideLabManager */,
+				5BDF76528C232EBBDAD3903A928D21B3 /* Pods-InsideLabManager_Example */,
+				69EC82F550A10B870D1F65CA0FB28C97 /* Pods-InsideLabManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1001F14D8EAACFD23DE10604AC82ED4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC534B9D8FCE394F1EED1D9B11609C7C /* InsideLabManager-dummy.m in Sources */,
+				2694E42DAEB047FA208D211F698EA6C8 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14301DC2752B34FFC2B600DC1FD91C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E553E5078393F0BB293BE138016A42 /* Pods-InsideLabManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4750AC8392780B4F8C08EAFADB43C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEAE9F2FFB79B16DBEA7D613404171C /* Pods-InsideLabManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C094563C4C60158A729FEACBDAF68F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InsideLabManager;
+			target = 30C15FDBDDF1B17706B46110E5B5A440 /* InsideLabManager */;
+			targetProxy = FA20A7C93F88DABB6E22FD32E5A9F0AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B497D97421BE26AFAD9206C897CBD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB2D81D66F5686DE537548764AEE0A8 /* InsideLabManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InsideLabManager/InsideLabManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InsideLabManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InsideLabManager/InsideLabManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = InsideLabManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B350AACD3BBE7D5E19AA6759069181F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A823FFB93267A793D74DBA06934911 /* Pods-InsideLabManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InsideLabManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InsideLabManager_Tests/Pods-InsideLabManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InsideLabManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE8A77F4788822B26646AAF9B0F299BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBED93FF848768E0315EF3683518EB4D /* Pods-InsideLabManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InsideLabManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InsideLabManager_Example/Pods-InsideLabManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InsideLabManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2E5D583D7C18C592A2112EA68E51681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C46C93150197CAC490198A90498977 /* Pods-InsideLabManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InsideLabManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InsideLabManager_Tests/Pods-InsideLabManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InsideLabManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6C7AEA29C86E71FEBD43C2A95A9BFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB2D81D66F5686DE537548764AEE0A8 /* InsideLabManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InsideLabManager/InsideLabManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InsideLabManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InsideLabManager/InsideLabManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = InsideLabManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED12E4BC72F2D711CBD980091E8C8AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5316CB87918392B8ECEB32EBAD438A45 /* Pods-InsideLabManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InsideLabManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InsideLabManager_Example/Pods-InsideLabManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InsideLabManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E5C2C892BF6450ECC4C6F29EE088BC /* Build configuration list for PBXNativeTarget "Pods-InsideLabManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5D583D7C18C592A2112EA68E51681 /* Debug */,
+				9B350AACD3BBE7D5E19AA6759069181F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F90138814AC4CFE6F3E06DB4C6D4E9 /* Build configuration list for PBXNativeTarget "InsideLabManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B497D97421BE26AFAD9206C897CBD87 /* Debug */,
+				D6C7AEA29C86E71FEBD43C2A95A9BFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C971DB4919DB3192AAD0B0518D208389 /* Build configuration list for PBXNativeTarget "Pods-InsideLabManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED12E4BC72F2D711CBD980091E8C8AA8 /* Debug */,
+				BE8A77F4788822B26646AAF9B0F299BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

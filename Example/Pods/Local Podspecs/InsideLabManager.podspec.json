@@ -1,0 +1,22 @@
+{
+  "name": "InsideLabManager",
+  "version": "0.1.0",
+  "summary": "A short description of InsideLabManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/InsideLab/InsideLabManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "InsideLab": "pod@insidelab.net"
+  },
+  "source": {
+    "git": "https://github.com/InsideLab/InsideLabManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "InsideLabManager/Classes/**/*"
+}

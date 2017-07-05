@@ -1,0 +1,16 @@
+PODS:
+  - InsideLabManager (0.1.0)
+
+DEPENDENCIES:
+  - InsideLabManager (from `../`)
+
+EXTERNAL SOURCES:
+  InsideLabManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  InsideLabManager: 0c5685e6e80ec9a137b259d9a985c4cda0eb1649
+
+PODFILE CHECKSUM: 64447904a87ec45c0a46d0f6719423e37ae019d1
+
+COCOAPODS: 1.2.1
