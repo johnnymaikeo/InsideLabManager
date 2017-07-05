@@ -18,6 +18,7 @@ struct defaultsKeys {
 }
 
 public class iBeacon {
+    
     public var datetime: NSDate
     public var minor: NSNumber
     public var major: NSNumber
@@ -27,7 +28,7 @@ public class iBeacon {
     public var accuracy: CLLocationAccuracy?
     public var rssi: Int?
     
-    init() {
+    public init() {
         
         self.datetime = NSDate()
         self.minor = 0.0
@@ -36,7 +37,7 @@ public class iBeacon {
         
     }
     
-    init(minor: NSNumber, major: NSNumber) {
+    public init(minor: NSNumber, major: NSNumber) {
         
         self.datetime = NSDate()
         self.uuid = NSUUID.init()
@@ -46,7 +47,7 @@ public class iBeacon {
         
     }
     
-    init(datetime: NSDate, minor: NSNumber, major: NSNumber, uuid: NSUUID) {
+    public init(datetime: NSDate, minor: NSNumber, major: NSNumber, uuid: NSUUID) {
         
         self.datetime = datetime
         self.minor = minor
@@ -54,19 +55,20 @@ public class iBeacon {
         self.uuid = uuid
         
     }
+    
 }
 
 public class InsideLab: NSObject, CLLocationManagerDelegate {
     
     public let iBeaconFoundNotification = Notification.Name("iBeaconFoundNotification")
     
-    static let manager: InsideLab = InsideLab()
+    public static let manager: InsideLab = InsideLab()
     let locationManager: CLLocationManager = CLLocationManager()
     var lastBeaconRead: iBeacon = iBeacon()
     var appUUID: String = ""
     var iBeaconListToMonitor: [iBeacon] = []
     
-    override init() {
+    public override init() {
         super.init()
     }
     
