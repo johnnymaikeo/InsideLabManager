@@ -9,23 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'InsideLabManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of InsideLabManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'iBeacon Manager provides a simple and optimized framework to easily integrate any iOS application with InsideLab products.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+InsideLab iBeacon Manager is a framework that makes the work of connecting and reading iBeacons a piece of cake. It uses standard CoreLocation framework instructions allowing your application to easily connect and read any iBeacon. In addition to the simplified configuration and usage, InsideLab iBeacon Manager connects to the InsideLab API generating visitation metrics with a single line of code. If you need more than just metrics, the InsideLab iBeacon Manager allows you to monitor and get alerts to specific iBeacons.
                        DESC
 
-  s.homepage         = 'https://github.com/InsideLab/InsideLabManager'
+  s.homepage         = 'https://github.com/johnnymaikeo/InsideLabManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'InsideLab' => 'pod@insidelab.net' }
-  s.source           = { :git => 'https://github.com/InsideLab/InsideLabManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/johnnymaikeo/InsideLabManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

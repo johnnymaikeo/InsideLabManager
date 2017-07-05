@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1E927FCEC90C40015C68948792E194E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1FE2C3816D09315D2F923E116325DCA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2694E42DAEB047FA208D211F698EA6C8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156622BF6691D593CF2938505F76450A /* ReplaceMe.swift */; };
+		4DA8D45444428317E8B168D1E46D300C /* InsideLabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F19B8EF075ED9EBC821A5B1CC8E8A1 /* InsideLabManager.swift */; };
+		554115DF611F1397F3F59E41A7D27506 /* InsideLabManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52B300F12F4AD53085106B61B0120D /* InsideLabManager-dummy.m */; };
 		55E553E5078393F0BB293BE138016A42 /* Pods-InsideLabManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E007CA3F7394D579CD4FA8EC6305 /* Pods-InsideLabManager_Tests-dummy.m */; };
 		5EEAE9F2FFB79B16DBEA7D613404171C /* Pods-InsideLabManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB8AEDD50C9CE6C02D076E0834B2F0 /* Pods-InsideLabManager_Example-dummy.m */; };
 		A6237BB37E74163C243111984977ED1F /* Pods-InsideLabManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE69D4988E44822F6DAF1FE88396E02 /* Pods-InsideLabManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC534B9D8FCE394F1EED1D9B11609C7C /* InsideLabManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52B300F12F4AD53085106B61B0120D /* InsideLabManager-dummy.m */; };
 		BE18EF9169B9CA36601DBFA4DDE84C9B /* Pods-InsideLabManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2404AD3354B48CFF4E3049647002CAA6 /* Pods-InsideLabManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC9F8158CEE4A08BF6CD5A4C73931F50 /* InsideLabManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F026B1DFDA64CC2DA19E262F77D6985 /* InsideLabManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5CE23DC6DBAB1B546185308E716FA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		03C46C93150197CAC490198A90498977 /* Pods-InsideLabManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InsideLabManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		156622BF6691D593CF2938505F76450A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		1AE69D4988E44822F6DAF1FE88396E02 /* Pods-InsideLabManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InsideLabManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1F83E1BE8B570131401F589329D01ED1 /* Pods-InsideLabManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InsideLabManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		2404AD3354B48CFF4E3049647002CAA6 /* Pods-InsideLabManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InsideLabManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		D5467B683A005F3FB234FC54E125B929 /* Pods-InsideLabManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InsideLabManager_Example.modulemap"; sourceTree = "<group>"; };
 		DC1A64ECDA9B42EA4D25A603BCE24514 /* InsideLabManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InsideLabManager-prefix.pch"; sourceTree = "<group>"; };
 		DE52B300F12F4AD53085106B61B0120D /* InsideLabManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InsideLabManager-dummy.m"; sourceTree = "<group>"; };
+		E1F19B8EF075ED9EBC821A5B1CC8E8A1 /* InsideLabManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InsideLabManager.swift; sourceTree = "<group>"; };
 		E5091B312378F454F2A46FDFFDC92F8E /* Pods_InsideLabManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InsideLabManager_Example.framework; path = "Pods-InsideLabManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB371FB43ED153AAD7FD8ED26ACD3727 /* Pods-InsideLabManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InsideLabManager_Example-resources.sh"; sourceTree = "<group>"; };
 		FBED93FF848768E0315EF3683518EB4D /* Pods-InsideLabManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InsideLabManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,15 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0127A74D261C4681B40335C65F71A78E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				156622BF6691D593CF2938505F76450A /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		0E47293D69D2F7584031981BC92357A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +133,7 @@
 		344B6074FA13B8695CD16C476BDECAAA /* InsideLabManager */ = {
 			isa = PBXGroup;
 			children = (
-				0127A74D261C4681B40335C65F71A78E /* Classes */,
+				6352F03841DB6511512EEC169A95B202 /* Classes */,
 			);
 			name = InsideLabManager;
 			path = InsideLabManager;
@@ -160,6 +151,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/InsideLabManager";
+			sourceTree = "<group>";
+		};
+		6352F03841DB6511512EEC169A95B202 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1F19B8EF075ED9EBC821A5B1CC8E8A1 /* InsideLabManager.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F90138814AC4CFE6F3E06DB4C6D4E9 /* Build configuration list for PBXNativeTarget "InsideLabManager" */;
 			buildPhases = (
-				1001F14D8EAACFD23DE10604AC82ED4F /* Sources */,
+				04E6AF856F96CB633E064FCB9C23040C /* Sources */,
 				DF90171F7D6FF26D2A0E3D16D06D432C /* Frameworks */,
 				D38CB7DAC6AD125788DBCDB42CF89CD2 /* Headers */,
 			);
@@ -335,12 +335,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1001F14D8EAACFD23DE10604AC82ED4F /* Sources */ = {
+		04E6AF856F96CB633E064FCB9C23040C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC534B9D8FCE394F1EED1D9B11609C7C /* InsideLabManager-dummy.m in Sources */,
-				2694E42DAEB047FA208D211F698EA6C8 /* ReplaceMe.swift in Sources */,
+				554115DF611F1397F3F59E41A7D27506 /* InsideLabManager-dummy.m in Sources */,
+				4DA8D45444428317E8B168D1E46D300C /* InsideLabManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
