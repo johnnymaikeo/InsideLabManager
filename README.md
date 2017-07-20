@@ -29,12 +29,11 @@ To integrate InsideLab iBeacon Manager into your Xcode project using CocoaPods, 
 it, simply add the following line to your Podfile:
 
 ```swift
-source 'https://github.com/johnnymaikeo/InsideLabManager.git'
 platform :ios, '10.0'
 use_frameworks!
 
-target '<Your Target Name>' do
-    pod 'InsideLabManager', '~> 0.1.3’
+target ‘<Your Target Name>’ do
+  pod 'InsideLabManager', :git => 'https://github.com/johnnymaikeo/InsideLabManager.git'
 end
 ```
 
