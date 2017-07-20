@@ -58,6 +58,8 @@ Before start monitoring beacons and regions, don't forget to include the authori
 To allow your app to monitor any iBeacons registered within InsideLab platform, initiate InsideLabManager and run information the application UUID. To obtain a application UUID visit the developers portal.
 
 ```swift
+import InsideLabManager
+
 let insidelab = InsideLab.manager
 insidelab.run(appUUID: "<application uuid>")
 ```
